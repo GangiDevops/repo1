@@ -1,0 +1,9 @@
+echo "Enter a number for mul"
+read t
+echo "Enter the limit"
+read num
+for((i=1;i<$num;i++))
+do
+        let prod=$t*$i
+        echo "$t * $i = $prod"
+done
